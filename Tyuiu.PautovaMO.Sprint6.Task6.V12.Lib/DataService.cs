@@ -27,7 +27,7 @@ namespace Tyuiu.PautovaMO.Sprint6.Task6.V12.Lib
                     {
                         if (!string.IsNullOrEmpty(word))
                         {
-                            if (word.Contains("w") || word.Contains("W"))
+                            if (word.Contains("w"))
                             {
                                 result += word + " ";
                             }
